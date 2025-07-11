@@ -1,0 +1,48 @@
+.header {
+  text-align: left;
+  height: 200px;
+  width: 100%;
+  background-image: url("../imgs/banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.h1 {
+  margin: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor td {
+  padding: 50px 50px 50px 200px;
+  text-align: middle;
+  vertical-align: middle;
+}
+
+td {
+  text-align: left;
+  padding: 30px;
+}
+td img {
+  size: 150px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.imagen-cursor:hover {
+  opacity: 0.6;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(220, 220, 220);
+  background-size: cover;
+  background-position: center;
+}

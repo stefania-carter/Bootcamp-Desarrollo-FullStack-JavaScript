@@ -1,0 +1,130 @@
+.header {
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  padding: 1em;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  background-color: #000000;
+}
+.img-background {
+  width: 100%;
+  height: auto;
+}
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+p {
+  color: white;
+}
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  max-width: 1200px;
+  padding: 2em;
+}
+
+.text-content {
+  flex: 1 1 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-content {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: end;
+}
+
+.image-content img {
+  width: 450px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.image-content img:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 6em;
+}
+.gallery img:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.foto-iguanas-gallery {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.caracteristicas {
+  text-align: center;
+  color: white;
+  background-color: #1e1a13;
+  padding: 3.5em;
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.icono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono i {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+footer {
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  background-color: #1e1a13;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+}
+footer a {
+  color: rgb(66, 229, 136);
+  text-decoration: none;
+}
+.footer a:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
