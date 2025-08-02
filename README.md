@@ -15,13 +15,20 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 - 1.4 - Bootstrap  
 - 1.5 - Terminal, Git y GitHub  
 
-### 02 - CSS Avanzado 🔄
-- 2.1 - Flexbox ✅  
-- 2.2 - Grid ✅  
-- 2.3 - Media Queries ✅   
-- 2.4 - Animaciones con CSS ⏳  
+### 02 - CSS Avanzado ✅
+- 2.1 - Flexbox   
+- 2.2 - Grid   
+- 2.3 - Media Queries    
+- 2.4 - Animaciones con CSS   
 
-### 03 - JavaScript para la web ⏳  
+### 03 - JavaScript para la web 🔄 
+- 3.1 - Introducción a JavaScript
+- 3.2 - Condiciones
+- 3.3 - Funciones
+- 3.4 - Arreglos y objetos
+- 3.5 - Métodos de arreglos
+- 3.6 - APIs
+  
 ### 04 - React ⏳  
 ### 05 - SQL ⏳  
 ### 06 - Backend con Node y Express ⏳  
