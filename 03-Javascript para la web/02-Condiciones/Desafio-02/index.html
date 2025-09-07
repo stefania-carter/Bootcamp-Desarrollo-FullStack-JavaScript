@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <h1>Desafío 2 - Condiciones JS</h1>
+
+    <!-- Ejercicio 1: Imagen con borde -->
+    <section id="ejercicio1">
+      <h2>1. Imagen con borde interactivo</h2>
+      <p>Haz clic en la imagen para agregar o quitar el borde rojo.</p>
+      <img
+        id="imagen-borde"
+        src="./assets/imgs/sticker-logo.png"
+        alt="Imagen para ejercicio 1"
+        width="300"
+      />
+    </section>
+
+    <!-- Ejercicio 2: Contador de stickers -->
+    <section id="ejercicio2">
+      <h2>2. Contador de stickers</h2>
+      <p>Puedes llevar hasta 10 stickers en total</p>
+
+      <div class="sticker-container">
+        <div class="sticker-item">
+          <img
+            src="./assets/imgs/sticker-arnold.png"
+            alt="Sticker 1"
+            width="100"
+          />
+          <input type="number" id="sticker1" min="0" value="0" />
+        </div>
+        <div class="sticker-item">
+          <img
+            src="./assets/imgs/sticker-gerald.png"
+            alt="Sticker 2"
+            width="100"
+          />
+          <input type="number" id="sticker2" min="0" value="0" />
+        </div>
+        <div class="sticker-item">
+          <img
+            src="./assets/imgs/sticker-helga.png"
+            alt="Sticker 3"
+            width="100"
+          />
+          <input type="number" id="sticker3" min="0" value="0" />
+        </div>
+      </div>
+
+      <button id="verificar-stickers">Verificar</button>
+      <p id="resultado-stickers"></p>
+    </section>
+
+    <!-- Ejercicio 3: Verificación de password -->
+    <section id="ejercicio3">
+      <h2>3. Verificación de password</h2>
+      <p>Ingresa el password</p>
+
+      <div class="password-container">
+        <div class="password-item">
+          <select id="digito1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="password-item">
+          <select id="digito2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="password-item">
+          <select id="digito3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+
+      <button id="verificar-password">Ingresar</button>
+      <p id="resultado-password"></p>
+    </section>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Colores</title>
+    <style>
+      .caja {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px;
+      }
+      #key {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border: 2px solid black;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="azul" class="caja" style="background-color: blue"></div>
+    <div id="rojo" class="caja" style="background-color: red"></div>
+    <div id="verde" class="caja" style="background-color: green"></div>
+    <div id="amarillo" class="caja" style="background-color: yellow"></div>
+
+    <div id="key"></div>
+
+    <script>
+      // Cambiar a color negro
+      function cambiarNegro(event) {
+        event.target.style.backgroundColor = "black";
+      }
+
+      // Agregar event listeners a los 4 divs
+      document.getElementById("azul").addEventListener("click", cambiarNegro);
+      document.getElementById("rojo").addEventListener("click", cambiarNegro);
+      document.getElementById("verde").addEventListener("click", cambiarNegro);
+      document
+        .getElementById("amarillo")
+        .addEventListener("click", cambiarNegro);
+
+      // Variable global para el color (requerimiento 4)
+      let colorGlobal = "";
+
+      document.addEventListener("keydown", function (event) {
+        const keyDiv = document.getElementById("key");
+
+        if (event.key === "a") {
+          colorGlobal = "pink";
+          keyDiv.style.backgroundColor = "pink";
+        } else if (event.key === "s") {
+          colorGlobal = "orange";
+          keyDiv.style.backgroundColor = "orange";
+        } else if (event.key === "d") {
+          colorGlobal = "lightblue";
+          keyDiv.style.backgroundColor = "lightblue";
+        } else if (event.key === "q") {
+          const nuevoDiv = document.createElement("div");
+          nuevoDiv.style.width = "200px";
+          nuevoDiv.style.height = "200px";
+          nuevoDiv.style.backgroundColor = "purple";
+          nuevoDiv.style.margin = "10px";
+          document.body.appendChild(nuevoDiv);
+        } else if (event.key === "w") {
+          const nuevoDiv = document.createElement("div");
+          nuevoDiv.style.width = "200px";
+          nuevoDiv.style.height = "200px";
+          nuevoDiv.style.backgroundColor = "gray";
+          nuevoDiv.style.margin = "10px";
+          document.body.appendChild(nuevoDiv);
+        } else if (event.key === "e") {
+          const nuevoDiv = document.createElement("div");
+          nuevoDiv.style.width = "200px";
+          nuevoDiv.style.height = "200px";
+          nuevoDiv.style.backgroundColor = "brown";
+          nuevoDiv.style.margin = "10px";
+          document.body.appendChild(nuevoDiv);
+        }
+      });
+    </script>
+  </body>
+</html>
