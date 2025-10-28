@@ -21,15 +21,24 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 - 2.3 - Media Queries    
 - 2.4 - Animaciones con CSS   
 
-### 03 - JavaScript para la web 🔄 
-- 3.1 - Introducción a JavaScript ✅
-- 3.2 - Condiciones ✅
-- 3.3 - Funciones ✅
+### 03 - JavaScript para la web ✅  
+- 3.1 - Introducción a JavaScript 
+- 3.2 - Condiciones 
+- 3.3 - Funciones 
 - 3.4 - Arreglos y objetos
 - 3.5 - Métodos de arreglos
 - 3.6 - APIs
   
-### 04 - React ⏳  
+### 04 - React 🔄  
+- 4.1 - Introducción a React ✅
+- 4.2 - Estados de los componentes y eventos 
+- 4.3 - Renderización dinámica de componentes 
+- 4.4 - Consumo de APIs con React
+- 4.5 - React Router I
+- 4.6 - Context
+- 4.7 - React Router II
+- 4.8 - JWT
+  
 ### 05 - SQL ⏳  
 ### 06 - Backend con Node y Express ⏳  
 ### 07 - Proyecto Final ⏳  
