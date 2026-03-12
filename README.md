@@ -29,8 +29,8 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 - 3.5 - Métodos de arreglos
 - 3.6 - APIs
   
-### 04 - React 🔄  
-- 4.1 - Introducción a React ✅
+### 04 - React ✅  
+- 4.1 - Introducción a React 
 - 4.2 - Estados de los componentes y eventos 
 - 4.3 - Renderización dinámica de componentes 
 - 4.4 - Consumo de APIs con React
@@ -39,8 +39,21 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 - 4.7 - React Router II
 - 4.8 - JWT
   
-### 05 - SQL ⏳  
-### 06 - Backend con Node y Express ⏳  
+### 05 - SQL ✅
+- 5.1 - Introducción a bases de datos y tablas
+- 5.2 - Consultas agrupadas
+- 5.3 - Consultas en múltiples tablas
+- 5.4 - Modelo e Integridad de datos
+  
+### 06 - Backend con Node y Express 🔄  
+- 6.1 - Introducción a Node ✅
+- 6.2 - Introducción a Express Js ✅
+- 6.3 - Acceso a una base de datos con Node y el paquete pg (Parte I) ✅
+- 6.4 - Acceso a una base de datos con Node y el paquete pg (Parte II) 🔄
+- 6.5 - Diseño avanzado de API REST
+- 6.6 - Autenticación y Autorización de usuarios con JWT
+- 6.8 - Testing
+
 ### 07 - Proyecto Final ⏳  
 
 ---
