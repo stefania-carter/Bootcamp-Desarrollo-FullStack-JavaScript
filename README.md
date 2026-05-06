@@ -45,16 +45,21 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 - 5.3 - Consultas en múltiples tablas
 - 5.4 - Modelo e Integridad de datos
   
-### 06 - Backend con Node y Express 🔄  
-- 6.1 - Introducción a Node ✅
-- 6.2 - Introducción a Express Js ✅
-- 6.3 - Acceso a una base de datos con Node y el paquete pg (Parte I) ✅
-- 6.4 - Acceso a una base de datos con Node y el paquete pg (Parte II) 🔄
+### 06 - Backend con Node y Express ✅  
+- 6.1 - Introducción a Node 
+- 6.2 - Introducción a Express Js 
+- 6.3 - Acceso a una base de datos con Node y el paquete pg (Parte I) 
+- 6.4 - Acceso a una base de datos con Node y el paquete pg (Parte II) 
 - 6.5 - Diseño avanzado de API REST
 - 6.6 - Autenticación y Autorización de usuarios con JWT
 - 6.8 - Testing
 
-### 07 - Proyecto Final ⏳  
+### 07 - Proyecto Final 🔄 
+- 7.1 - Hito 1 - Diseño y prototipo ✅
+- 7.2 - Hito 2 - Desarrollo frontend ✅ 
+- 7.3 - Hito 3 - Desarrollo backend 
+- 7.4 - Hito 4 - Integración y despliegue 
+- 7.5 - Hito 5 - Presentación del proyecto
 
 ---
 
