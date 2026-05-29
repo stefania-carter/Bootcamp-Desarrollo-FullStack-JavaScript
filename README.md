@@ -57,8 +57,8 @@ Este repositorio contiene todo el material de ejercicios realizados durante mi f
 ### 07 - Proyecto Final 🔄 
 - 7.1 - Hito 1 - Diseño y prototipo ✅
 - 7.2 - Hito 2 - Desarrollo frontend ✅ 
-- 7.3 - Hito 3 - Desarrollo backend 
-- 7.4 - Hito 4 - Integración y despliegue 
+- 7.3 - Hito 3 - Desarrollo backend ✅
+- 7.4 - Hito 4 - Integración y despliegue ✅ 
 - 7.5 - Hito 5 - Presentación del proyecto
 
 ---
